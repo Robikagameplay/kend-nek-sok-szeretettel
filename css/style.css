@@ -505,3 +505,13 @@ nav li:hover .menu-sub {
 .menu-col-2 {
   width: 50%;
 }
+
+.menu-small{
+  position: absolute;
+  left: 0;
+  background: #444;
+  width: 100%;
+  display: none;
+  color: #fff;
+  padding: 2em;
+}
