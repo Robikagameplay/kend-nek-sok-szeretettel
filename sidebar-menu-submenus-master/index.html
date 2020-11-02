@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
+        
+    </head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <a href="#" class="nav__logo">Esze Tamás Gim.</a>
+                    </div>
+                    <div class="nav__list">
+                       <!---- 
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Főoldal</span>
+                        </a>
+                     -->
+
+                     <div  class="nav__link collapse">
+                        <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Főoldal</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Naptár</a>
+                       
+                        </ul>
+                    </div>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="barcode-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Iskolatörténet</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Bemutatkozás</a>
+                            <a href="#" class="collapse__sublink">MI VELÜNK</a>
+                            <a href="#" class="collapse__sublink">Mi értünk</a>
+                            <a href="#" class="collapse__sublink">Galéria</a>
+                            <a href="#" class="collapse__sublink">Tablók</a>
+                        </ul>
+                    </div>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="school-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Tagozatok</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Esze Prospektus</a>
+                            <a href="#" class="collapse__sublink">Angol/Német</a>
+                            <a href="#" class="collapse__sublink">Matematika/Fizika</a>
+                            <a href="#" class="collapse__sublink">Magyar_Történelem</a>
+                            <a href="#" class="collapse__sublink">Biológia-Kémia</a>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="book-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Felvételi tájékoztató</span>
+                    </a>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="bookmarks-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Órarend</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Osztályok</a>
+                            <a href="#" class="collapse__sublink">Tanárok</a>
+                            <a href="#" class="collapse__sublink">Termek</a>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Munkatársak</span>
+                    </a>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="create-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">E-napló</span>
+                    </a>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="ribbon-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Elismerések</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Esze-Plakett</a>
+                            <a href="#" class="collapse__sublink">Városi érdemes ped.</a>
+                            <a href="#" class="collapse__sublink">Miniszteri</a>
+                        </ul>
+                    </div>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="information-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Szervezetek/Projektek</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav__link">
+                        <ion-icon name="megaphone-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Elérhetőségek</span>
+                    </a>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="open-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Linkek</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="code-working-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Közzététel</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Data</a>
+                            <a href="#" class="collapse__sublink">Group</a>
+                            <a href="#" class="collapse__sublink">Members</a>
+                        </ul>
+                    </div>
+<!--
+                        <div  class="nav__link collapse">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Projects</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Data</a>
+                                <a href="#" class="collapse__sublink">Group</a>
+                                <a href="#" class="collapse__sublink">Members</a>
+                            </ul>
+                        </div>
+                    -->
+                
+            </nav>
+        </div>
+
+       
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+        <!-- ===== MAIN JS ===== -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
